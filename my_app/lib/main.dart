@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import './widgets/my_app_bar.dart' as relative;
+import './widgets/tutorial_home.dart';
 
 void main() {
   runApp(MaterialApp(
-    title: 'My app',
-    home: SafeArea(
-      child: relative.MyScaffold()
-    )
+    title: 'Flutter Tutorial',
+    home: TutorialHome(),
   ));
 }
