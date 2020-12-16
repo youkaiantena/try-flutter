@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import './widgets/tutorial_home.dart';
+import './widgets/my_button.dart';
 
 void main() {
   runApp(MaterialApp(
-    title: 'Flutter Tutorial',
-    home: TutorialHome(),
+    home: MyButtonHome()
   ));
 }
