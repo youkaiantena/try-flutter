@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
+import './widgets/my_app_bar.dart' as relative;
 
 void main() {
-  runApp(
-    Center(
-      child: Text(
-        'Hello world!',
-        textDirection: TextDirection.ltr
-      )
+  runApp(MaterialApp(
+    title: 'My app',
+    home: SafeArea(
+      child: relative.MyScaffold()
     )
-  );
+  ));
 }
