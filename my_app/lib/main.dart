@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
-import './widgets/my_button.dart';
+import './widgets/counter.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: MyButtonHome()
+    title: 'My app',
+    home: SafeArea(
+      child: MyScaffold()
+    )
   ));
 }
